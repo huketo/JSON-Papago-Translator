@@ -1,0 +1,26 @@
+{
+  "name": "gorani",
+  "version": "1.0.0",
+  "description": "transrate minecraft mod json to papago",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "qs": "^6.11.0",
+    "request": "^2.88.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  }
+}
